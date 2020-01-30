@@ -1,0 +1,78 @@
+
+ 
+body{
+    background-image: url(img/6g9kIeh.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1rem;
+    color: #050505;
+    line-height: 1.625;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(12, 3, 3, 0.4);
+}
+
+.container{
+    border: 5px solid rgba(2, 18, 34, 0.959);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0;
+    background-image: url(img/brand3.png);
+    background-position: left center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.container2{
+    border: 5px solid rgba(2, 18, 34, 0.959);
+    margin-top: 10px;
+    padding: 0;
+    background-image: url(img/brand3.png);
+    background-position: left center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.form{
+    padding: 10px 20px;
+}
+
+.row{
+    margin-bottom: 25px;
+}
+
+.col-4{
+    text-align: right;
+}
+
+.hidden{
+    display: none;
+}  
+
+.btn{
+    background-color: black;
+}
+
+.item{
+    width: 350px;
+    height: 150px;
+    border: 1px solid #efefef;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+    background-color: rgba(241, 242, 243, 0.959);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top: 100px;
+}

@@ -1,0 +1,204 @@
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+     text-decoration: none;
+     color: white;
+
+}
+
+a:hover {
+    color: black;
+}
+
+.header3 {
+    background: url(img/dancing.gif);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    padding-bottom: 3.5em;
+    width: 100vw;
+}
+
+
+.header-image {
+    float: left;
+    width: 33%;
+    
+    
+    
+}
+
+.header-image3 {
+    border: 1px solid black;
+    border-radius: 15%;
+    width: 350px;
+    height: 200px;
+}
+
+.header-info {
+    float: right;
+    width: 67%;
+    margin-top: 4em;
+    color: white;
+}
+
+.surtitle {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.title {
+    margin: .25em 0;
+    font-size: 3em;    
+}
+
+.subtitle {
+    margin: .5em 0 1.5em;
+    font-size: 1.25em;    
+}
+
+.intro {
+    margin: .5em 0 1.5em;
+    font-size: 3em; 
+}
+
+
+.btn {
+    background-color: black;
+}
+
+.description {
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1.25em;
+    background-color: white;
+}
+
+.facts {
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1.25em;
+    background-color: tan;
+}
+
+.facts-text {
+    float: left;
+    width: 75%;
+}
+
+.fact {
+    margin-bottom: .75em;
+}
+
+.facts-image {
+    float: right;
+}
+
+.image {
+    border: 1px solid black;
+    border-radius: 30%;
+    width: 200px;
+    height: 210px;
+}
+
+.puppy-versions-title {
+    padding: 1em 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.puppy-versions {
+    padding: 1em 0;
+    background-color: tan;
+}
+
+.puppy-version {
+    float: left;
+    width: 33.33%;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+}
+
+.version-item {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: .75em 0;
+    font-size: 1.25em;
+}
+
+.version-item:last-child {
+     border-bottom: 0;
+}
+
+.version-title {
+    padding: .75em 0;
+    font-size: 1.5em;
+}
+
+.version-price {
+    padding: .75em 0;
+    font-size: 2em;
+    background-color: lightgray;
+}
+
+.btn-plain {
+    font-weight: normal;
+    color: black;
+    background-color: lightgray;
+}
+
+.social {
+    color: white;
+    text-align: center;    
+}
+
+.social-links {
+    margin-top: .75em;
+}
+
+.social-link {
+    margin: 0 .25em;
+}
+
+.footer {
+    padding: 1em 0;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.footer-links {
+    margin-bottom: .75em;
+    font-size: 1.5em;
+}
+
+.footer-link {
+    margin: 0 .5em;
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-link:hover {
+    color:purple;
+}
+
+.copyright {
+    font-style: italic;
+    font-size: 1em;
+}
